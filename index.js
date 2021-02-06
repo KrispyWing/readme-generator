@@ -70,6 +70,7 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {
   const readmeData = inquirer.prompt(questions);  
+  return readmeData;
 }
 
 // Function call to initialize app
