@@ -7,6 +7,16 @@ const inquirer = require('inquirer');
 const questions = [
     {
       type: 'input',
+      name: 'username',
+      message: 'What is your Github Username?'
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What is your email address?'
+    },
+    {
+      type: 'input',
       name: 'title',
       message: "What is the title of your Project? (Required)",
       validate: titleInput => {
@@ -22,6 +32,33 @@ const questions = [
       type: 'input',
       name: 'description',
       message: 'Enter a description of your project:'
+    },
+    {
+      type: 'input',
+      name: 'install',
+      message: 'Please enter setup/installation instructions for your project:'
+    },
+    {
+      type: 'input',
+      name: 'usage',
+      message: 'Please explain how to use your project'
+    },
+    {
+      type: 'list',
+      name: 'license',
+      message: 'What license is your project using?',
+      choices: ['MIT', 'ISC', 'Apache License 2.0', 'GNU GPLv3', 'None']
+    },
+    {
+      type: 'confirm',
+      name: 'contribute',
+      message: 'Is this project accepting contributions?',
+      default: false
+    },
+    {
+      type: 'input',
+      name: 'test',
+      message: 'Explain how to test your project:'
     }
   ];  
 
