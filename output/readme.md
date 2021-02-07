@@ -1,16 +1,14 @@
-# test
-  ![license](https://img.shields.io/badge/license-Apache 2.0-green.svg)
+# new
+  ![license](https://img.shields.io/badge/license-MIT-green.svg)
 
   ## Description
   
-  test
+  new
 
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
-  
-* [License](#license)
-
+  * [License](#license)
   * [Contributing](#Contributing)
   * [Tests](#Tests)
   * [Questions](#Questions)
@@ -18,23 +16,25 @@
   ## Installation
   
   To install dependencies run
-  test
+  npm i
 
   ## Usage
-  test
+  new
 
   ## License
     
-    This project is licensed under the Apache 2.0 license.
+    This project is licensed under the MIT license.
 
   ## Contributing
   This project is accepting contributions: false
 
   ## Tests
-  test
+  npm test
 
   ## Questions
   For any additional information 
-  View my Github profile at [test](https:github.com/test/)
-  Email: [test](mailto:test)
+
+  View my Github profile at [new](https:github.com/new/) 
+
+  Email: [new](mailto:new)
   

@@ -15,7 +15,7 @@ function renderLicenseLink(license) {
   if (license === 'None') {
     return '';
   } else {
-    return `\n* [License](#license)\n`;
+    return `* [License](#license)`;
   };
 }
 
@@ -66,8 +66,8 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  For any additional information 
-  View my Github profile at [${data.username}](https:github.com/${data.username}/)
+  For any additional information \n
+  View my Github profile at [${data.username}](https:github.com/${data.username}/) \n
   Email: [${data.email}](mailto:${data.email})
   `;
 }
