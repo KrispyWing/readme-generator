@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown.js')
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
 // TODO: Create an array of questions for user input
@@ -37,7 +37,8 @@ const questions = [
     {
       type: 'input',
       name: 'install',
-      message: 'Please enter setup/installation instructions for your project:'
+      message: 'How should dependencies be installed'
+      default: 'npm i'
     },
     {
       type: 'input',
@@ -48,7 +49,7 @@ const questions = [
       type: 'list',
       name: 'license',
       message: 'What license is your project using?',
-      choices: ['MIT', 'ISC', 'Apache-2.0', 'GPL-3.0', 'None']
+      choices: ['MIT', 'ISC', 'Apache2.0', 'GPLv3.0', 'None']
     },
     {
       type: 'confirm',
@@ -59,21 +60,29 @@ const questions = [
     {
       type: 'input',
       name: 'test',
-      message: 'Explain how to test your project:'
+      message: 'What command should be used for running tests?',
+      default: 'npm test'
     }
   ];  
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  return fs.writeFileSync(fileName, data);
+};
 
 // TODO: Create a function to initialize app
 function init() {
-  const readmeData = inquirer.prompt(questions);  
-  return readmeData;
-}
+  inquirer.prompt(questions).then(readmeData => {
+    console.log(readmeData);
+    writeToFile('./output/readme.md', generateMarkdown({ ...readmeData }));
+  });  
+  
+};
 
 // Function call to initialize app
-init();
+init()
+
+
 
 
