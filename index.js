@@ -37,7 +37,7 @@ const questions = [
     {
       type: 'input',
       name: 'install',
-      message: 'How should dependencies be installed'
+      message: 'How should dependencies be installed',
       default: 'npm i'
     },
     {
