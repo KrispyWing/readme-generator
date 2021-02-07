@@ -25,3 +25,5 @@ This progam was created using:
 ![Node.js](https://img.shields.io/badge/-Node.js-green?style=for-the-badge&logo=node.js&logoColor=black)
 
 ## Preview
+Demo of the program
+![Demo](./Readme-Gen-Demo.gif)

@@ -1,14 +1,14 @@
-# new
-  ![license](https://img.shields.io/badge/license-MIT-green.svg)
+# Weather Dashboard
+  
 
   ## Description
   
-  new
+  Simple website to search for weather in cities
 
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
-  * [License](#license)
+  
   * [Contributing](#Contributing)
   * [Tests](#Tests)
   * [Questions](#Questions)
@@ -16,25 +16,23 @@
   ## Installation
   
   To install dependencies run
-  npm i
+  No Dependencies
 
   ## Usage
-  new
+  Navigate to the website and search for a city
 
-  ## License
-    
-    This project is licensed under the MIT license.
+  
 
   ## Contributing
   This project is accepting contributions: false
 
   ## Tests
-  npm test
+  No tests needed
 
   ## Questions
   For any additional information 
 
-  View my Github profile at [new](https:github.com/new/) 
+  View my Github profile at [KrispyWing](https:github.com/KrispyWing/) 
 
-  Email: [new](mailto:new)
+  Email: [kpennimpede@hotmail.com](mailto:kpennimpede@hotmail.com)
   
