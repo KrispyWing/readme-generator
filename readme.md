@@ -31,4 +31,4 @@ Demo of the program
 
 Full version of video also showing the outputted readme can be viewed at:
 
-(https://drive.google.com/file/d/1_5bBFRy8OuCtJS7dqmNu3-ZOrjw0_Ymz/view?usp=sharing)
+https://drive.google.com/file/d/1_5bBFRy8OuCtJS7dqmNu3-ZOrjw0_Ymz/view?usp=sharing
